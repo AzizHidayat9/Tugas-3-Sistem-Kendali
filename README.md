@@ -1,10 +1,13 @@
 # Tugas-3-Sistem-Kendali
 Aziz Hidayat (21/481626/PA/20975)
 
-Kode ini mengandung 3 fungsi
+Kode program terdiri dari tiga fungsi
 
-'calculate_polynomial' mengambil koefisien dari sebuah polinomial dan sebuah nilai 's' dan menghasilkan nilai polinomial tadi sebagai 's' dengan cara mlakukan looping pada setiap koefisien dan mengalikannya dengan 's' dengan pangkat berdasarkan posisinya dalam list
+1. 'calculate_polynomial' 
+  adalah fungsi yang digunakan untuk menghitung nilai dari suatu polinomial untuk nilai tertentu s. Fungsi tersebut mengambil dua argumen yaitu "coefficients" dan "s". Argumen "coefficients" berupa daftar koefisien polinomial dalam urutan turunan tertinggi ke turunan terendah, sementara argumen "s" adalah nilai dari variabel s pada saat polinomial tersebut dihitung.
 
-'create_routh_table' mengambil koefisien dari sebuah polinomial dan sebuah nilai 'k' lalu menghasilkan nilai tabel routh untuk polinomial tersebut dan nilai 'k'
+2. 'create_routh_table' 
+  adalah sebuah fungsi dalam program yang digunakan untuk membuat tabel Routh untuk suatu polinomial dan nilai K tertentu. Tabel Routh digunakan untuk mengevaluasi stabilitas sistem kontrol, dan terdiri dari sekelompok koefisien dalam polinomial yang disusun dalam bentuk matriks.
 
-'is_system_stable' mengambil tabel routh dan menghasilkan 'True' jika sistem yang didasarkan pada tabel tersebut stabil, dan akan menghasilkan 'false' jika terjadi sebaliknya
+3. 'is_system_stable' 
+  Fungsi ini digunakan untuk menentukan apakah sistem kontrol yang diwakili oleh tabel Routh tertentu stabil atau tidak stabil.
